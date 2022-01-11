@@ -21,3 +21,5 @@ my HomeDir
     * toolkit.legacyUserProfileCustomizations.stylesheets = true
 * [dust](https://github.com/bootandy/dust)
 * [delta diff](https://github.com/dandavison/delta)
+* [lens](https://k8slens.dev/)
+* k9s
