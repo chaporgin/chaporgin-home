@@ -1,0 +1,23 @@
+<keymap version="1" name="IntelliJ IDEA Classic (chapson)" parent="Mac OS X">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f9" />
+  </action>
+  <action id="Arc.Branches">
+    <keyboard-shortcut first-keystroke="shift back_slash" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
+  <action id="PreviousWindow" />
+  <action id="ProjectViewChangeView" />
+  <action id="RunJsbtTask" />
+  <action id="RunToCursor">
+    <mouse-shortcut keystroke="Force touch" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+</keymap>
