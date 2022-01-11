@@ -12,6 +12,7 @@ my HomeDir
    * Paste
    * Devutils
    * Expression
+   * Euclid
 * https://lunar.fyi/#configuration-page
 * Firefox + Tree style tab + Multiple containers 
   * hide tab bar:
