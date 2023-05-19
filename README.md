@@ -23,3 +23,4 @@ my HomeDir
 * [delta diff](https://github.com/dandavison/delta)
 * [lens](https://k8slens.dev/)
 * k9s
+* [viddy](https://github.com/sachaos/viddy)
