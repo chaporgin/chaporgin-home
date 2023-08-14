@@ -25,3 +25,4 @@ my HomeDir
 * k9s
 * [viddy](https://github.com/sachaos/viddy)
 * [exa](https://github.com/ogham/exa)
+* [gping](https://github.com/orf/gping)
