@@ -26,3 +26,4 @@ my HomeDir
 * [viddy](https://github.com/sachaos/viddy)
 * [exa](https://github.com/ogham/exa)
 * [gping](https://github.com/orf/gping)
+* `brew install jesseduffield/lazydocker/lazydocker`
