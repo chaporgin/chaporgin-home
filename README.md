@@ -28,3 +28,5 @@ my HomeDir
 * [gping](https://github.com/orf/gping)
 * `brew install jesseduffield/lazydocker/lazydocker`
 * [tmux integration](https://gist.github.com/lukasnellen/c332f207cde666e0dfa5938d8dd0c161)
+* [mise](https://mise.jdx.dev/dev-tools/)
+
