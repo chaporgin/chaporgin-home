@@ -13,12 +13,12 @@ my HomeDir
    * Devutils
    * Expression
    * Euclid
-* https://lunar.fyi/#configuration-page
 * Firefox + Tree style tab + Multiple containers 
   * hide tab bar:
     * [SO](https://superuser.com/questions/1268732/how-to-hide-tab-bar-tabstrip-in-firefox-57-quantum) 
     * `vim ~/Library/Application\ Support/Firefox/Profiles/0el8q2dq.default/chrome/userChrome.css`
     * toolkit.legacyUserProfileCustomizations.stylesheets = true
+  * Vimium plugin
 * [dust](https://github.com/bootandy/dust)
 * [delta diff](https://github.com/dandavison/delta)
 * [lens](https://k8slens.dev/)
