@@ -1,4 +1,4 @@
-# antonyc-home
+# chaporgin environment
 my HomeDir
 
 * [fzf](https://github.com/junegunn/fzf)
@@ -23,6 +23,13 @@ my HomeDir
 * [delta diff](https://github.com/dandavison/delta)
 * [lens](https://k8slens.dev/)
 * k9s
+* [pspg](https://github.com/okbob/pspg)
+```
+cat ~/.psqlrc
+\setenv PAGER pspg
+\pset border 2
+\pset linestyle unicode
+```
 * [viddy](https://github.com/sachaos/viddy)
 * [exa](https://github.com/ogham/exa)
 * [gping](https://github.com/orf/gping)
