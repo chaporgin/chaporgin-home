@@ -37,3 +37,16 @@ cat ~/.psqlrc
 * [tmux integration](https://gist.github.com/lukasnellen/c332f207cde666e0dfa5938d8dd0c161)
 * [mise](https://mise.jdx.dev/dev-tools/)
 
+
+```
+/* Firefox 139 – kill the entire tab toolbar, including new “Fx View” & tab-manager buttons */
+#TabsToolbar,
+#TabsToolbar-customization-target,
+#tabbrowser-tabs {
+  visibility: collapse !important;
+  display: none !important;
+}
+
+/* Optional: keep window controls visible even when the title-bar is disabled */
+#nav-bar { margin-top: -8px !important; }
+```
