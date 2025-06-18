@@ -116,19 +116,38 @@ source /Users/chapson/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
 
 #test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 
-cd /Users/chapson/Documents/yandex
-
-
-# The next line updates PATH for Yandex Cloud Private CLI.
-if [ -f '/Users/chapson/ycp/path.bash.inc' ]; then source '/Users/chapson/ycp/path.bash.inc'; fi
-
-
-# The next line updates PATH for Yandex Cloud CLI.
-if [ -f '/Users/chapson/yandex-cloud/path.bash.inc' ]; then source '/Users/chapson/yandex-cloud/path.bash.inc'; fi
-
-# The next line enables shell command completion for yc.
-if [ -f '/Users/chapson/yandex-cloud/completion.zsh.inc' ]; then source '/Users/chapson/yandex-cloud/completion.zsh.inc'; fi
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-source /Users/chapson/yandex-cloud/completion.zsh.inc
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+export LOKI_ADDR="https://logs-prod3.grafana.net/"
+export LOKI_USERNAME="316615"
+
+# poetry
+export PATH="/Users/chapson/.local/bin:$PATH"
+
+# golang
+export PATH="/Users/chapson/go/bin:$PATH"
+
+# cloud repo
+export PATH="/Users/chapson/Documents/neon/cloud/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+
+alias ls="exa -lah"
+alias du=dust
+alias watch=viddy
+alias ping=gping
+
+# mise
+source ~/.mise-activate.zsh
+
+#zoxide
+eval "$(zoxide init zsh)"
+
+# https://github.com/okbob/pspg?tab=readme-ov-file
+export PSQL_PAGER='pspg -X -b'
